@@ -1,0 +1,50 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 0;
+}
+
+.color-picker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: purple;
+  padding: 150px 100px 150px;
+  border-radius: 16px;
+  color: rgb(91, 91, 91);
+  box-shadow: 0 0 10px 5px;
+}
+
+.color-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.color-square {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button {
+  background-color: rgb(27, 186, 69);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+h2{
+  text-align: center;
+  margin-top: 50px;
+}
+
+html{
+  background-color: #bdb5dc;
+}
